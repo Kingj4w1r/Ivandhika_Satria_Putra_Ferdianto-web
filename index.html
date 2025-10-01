@@ -1,23 +1,94 @@
 <html>
   <head>
     <title>Contoh Hyperlink</title>
+    <style>
+      body {
+        background: linear-gradient(120deg, #e0eafc, #cfdef3);
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 650px;
+        margin: 60px auto;
+        background: #fff;
+        border-radius: 14px;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        padding: 40px 32px;
+        text-align: center;
+      }
+      .menu {
+        margin-bottom: 28px;
+      }
+      .menu a {
+        text-decoration: none;
+        color: #e63946;
+        font-weight: bold;
+        margin: 0 10px;
+        font-size: 1.15em;
+        transition: color 0.2s;
+      }
+      .menu a:hover {
+        color: #2a5298;
+        text-decoration: underline;
+      }
+      h1 {
+        color: #2a5298;
+        margin-bottom: 18px;
+        letter-spacing: 1px;
+      }
+      .intro {
+        color: #444;
+        font-size: 1.1em;
+        margin-bottom: 18px;
+      }
+      .logo {
+        width: 70px;
+        margin-bottom: 18px;
+      }
+      hr {
+        border: none;
+        border-top: 3px solid #2a5298;
+        width: 50%;
+        margin: 18px auto;
+      }
+      .footer-link {
+        color: #2a5298;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .footer-link:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
-    <hr color="blue" size="3" width="50%" align="left" />
-    <font size="4" color="red">
-      <a href="home.html">Home</a> | <a href="about.html">About</a> |
-      <a href="profil.html">Profil</a> | <a href="kontak.html">Kontak</a> |
-      <a href="galery.html">Gallery</a>
-    </font>
-    <hr color="blue" size="3" width="50%" align="left" />
-    <font size="3">
-      Assalammualaikum.Wr.Wb.<br />
-      Apakabar semua. Salam kenal, ini adalah web perdanaku.<br />
-      Web ini berisi informasi tentang kegemaranku.<br />
-      Semoga web ini dapat menginspirasi Anda pada waktu liburan.<br />
-      <a href="http://www.google.com">Google</a><br />
-      Silakan hubungi saya jika ada yang ingin didiskusikan:
-      <a href="mailto:endarnirmala@gmail.com">email</a>
-    </font>
+    <div class="container">
+      <img
+        src="https://img.icons8.com/color/96/000000/web.png"
+        class="logo"
+        alt="Logo Web"
+      />
+      <div class="menu">
+        <a href="home.html">Home</a> | <a href="about.html">About</a> |
+        <a href="profil.html">Profil</a> | <a href="kontak.html">Kontak</a> |
+        <a href="galery.html">Gallery</a>
+      </div>
+      <hr />
+      <h1>Selamat Datang!</h1>
+      <div class="intro">
+        Assalammualaikum.Wr.Wb.<br />
+        Apakabar semua. Salam kenal, ini adalah web perdanaku.<br />
+        Web ini berisi informasi tentang kegemaranku.<br />
+        Semoga web ini dapat menginspirasi Anda pada waktu liburan.<br />
+      </div>
+      <a href="http://www.google.com" class="footer-link" target="_blank"
+        >Google</a
+      ><br />
+      <span
+        >Silakan hubungi saya jika ada yang ingin didiskusikan:
+        <a href="mailto:endarnirmala@gmail.com" class="footer-link">email</a>
+      </span>
+    </div>
   </body>
 </html>
